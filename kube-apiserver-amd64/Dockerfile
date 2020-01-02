@@ -1,2 +1,2 @@
 FROM k8s.gcr.io/kube-apiserver:v1.17.0
-MAINTAINER xux <xux@163.com>
+MAINTAINER xux  <xux@163.com>
