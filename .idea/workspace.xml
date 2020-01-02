@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="19d86f57-562c-4c45-9029-f6cbec5e1a2d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coredns-amd64/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/coredns/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etcd-amd64/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/etcd/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kube-apiserver-amd64/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/kube-apiserver/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kube-controller-manager-amd64/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/kube-controller-manager/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kube-proxy-amd64/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/kube-proxy/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kube-scheduler-amd64/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/kube-scheduler/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pause-amd64/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/pause/Dockerfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +26,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kube-apiserver/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kube-apiserver-amd64/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/kube-controller-manager/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
               <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
@@ -29,7 +45,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kube-controller-manager-amd64/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/kube-scheduler/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
               <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
@@ -38,16 +54,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kube-scheduler-amd64/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pause-amd64/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/pause/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
               <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
@@ -56,7 +63,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kube-proxy-amd64/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/kube-proxy/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
               <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
@@ -65,7 +72,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etcd-amd64/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/etcd/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
               <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
@@ -73,8 +80,8 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/coredns-amd64/Dockerfile">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coredns/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
               <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
@@ -101,12 +108,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/etcd-amd64/Dockerfile" />
-        <option value="$PROJECT_DIR$/kube-apiserver-amd64/Dockerfile" />
         <option value="$PROJECT_DIR$/kube-controller-manager-amd64/Dockerfile" />
         <option value="$PROJECT_DIR$/kube-proxy-amd64/Dockerfile" />
         <option value="$PROJECT_DIR$/kube-scheduler-amd64/Dockerfile" />
         <option value="$PROJECT_DIR$/pause-amd64/Dockerfile" />
         <option value="$PROJECT_DIR$/coredns-amd64/Dockerfile" />
+        <option value="$PROJECT_DIR$/kube-apiserver-amd64/Dockerfile" />
       </list>
     </option>
   </component>
@@ -155,37 +162,37 @@
             <path>
               <item name="k8s-images" type="b2602c69:ProjectViewProjectNode" />
               <item name="k8s-images" type="462c0819:PsiDirectoryNode" />
-              <item name="coredns-amd64" type="462c0819:PsiDirectoryNode" />
+              <item name="coredns" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="k8s-images" type="b2602c69:ProjectViewProjectNode" />
               <item name="k8s-images" type="462c0819:PsiDirectoryNode" />
-              <item name="etcd-amd64" type="462c0819:PsiDirectoryNode" />
+              <item name="etcd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="k8s-images" type="b2602c69:ProjectViewProjectNode" />
               <item name="k8s-images" type="462c0819:PsiDirectoryNode" />
-              <item name="kube-apiserver-amd64" type="462c0819:PsiDirectoryNode" />
+              <item name="kube-apiserver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="k8s-images" type="b2602c69:ProjectViewProjectNode" />
               <item name="k8s-images" type="462c0819:PsiDirectoryNode" />
-              <item name="kube-controller-manager-amd64" type="462c0819:PsiDirectoryNode" />
+              <item name="kube-controller-manager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="k8s-images" type="b2602c69:ProjectViewProjectNode" />
               <item name="k8s-images" type="462c0819:PsiDirectoryNode" />
-              <item name="kube-proxy-amd64" type="462c0819:PsiDirectoryNode" />
+              <item name="kube-proxy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="k8s-images" type="b2602c69:ProjectViewProjectNode" />
               <item name="k8s-images" type="462c0819:PsiDirectoryNode" />
-              <item name="kube-scheduler-amd64" type="462c0819:PsiDirectoryNode" />
+              <item name="kube-scheduler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="k8s-images" type="b2602c69:ProjectViewProjectNode" />
               <item name="k8s-images" type="462c0819:PsiDirectoryNode" />
-              <item name="pause-amd64" type="462c0819:PsiDirectoryNode" />
+              <item name="pause" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -232,7 +239,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577958112446</updated>
-      <workItem from="1577958113942" duration="1477000" />
+      <workItem from="1577958113942" duration="2750000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1577958664035</created>
@@ -255,15 +262,28 @@
       <option name="project" value="LOCAL" />
       <updated>1577959549191</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="12">
+      <created>1577961255508</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577961255508</updated>
+    </task>
+    <task id="LOCAL-00005" summary="12">
+      <created>1577961856075</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577961856075</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1477000" />
+    <option name="totallyTimeSpent" value="2750000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="JRebel" side_tool="true" />
       <window_info id="Image Layers" />
@@ -307,52 +327,52 @@
     <option name="LAST_COMMIT_MESSAGE" value="12" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/etcd-amd64/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/etcd/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kube-apiserver-amd64/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/kube-controller-manager/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kube-controller-manager-amd64/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/kube-proxy/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kube-proxy-amd64/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/kube-scheduler/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kube-scheduler-amd64/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pause-amd64/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/pause/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coredns-amd64/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/coredns/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kube-apiserver/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
