@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19d86f57-562c-4c45-9029-f6cbec5e1a2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/flannel/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coredns-amd64/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/coredns/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etcd-amd64/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/etcd/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kube-apiserver-amd64/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/kube-apiserver/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kube-controller-manager-amd64/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/kube-controller-manager/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kube-proxy-amd64/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/kube-proxy/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kube-scheduler-amd64/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/kube-scheduler/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pause-amd64/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/pause/Dockerfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,16 +15,15 @@
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kube-apiserver/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -57,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/pause/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -83,8 +76,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/coredns/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flannel/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="35" selection-start-column="35" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -114,6 +116,8 @@
         <option value="$PROJECT_DIR$/pause-amd64/Dockerfile" />
         <option value="$PROJECT_DIR$/coredns-amd64/Dockerfile" />
         <option value="$PROJECT_DIR$/kube-apiserver-amd64/Dockerfile" />
+        <option value="$PROJECT_DIR$/coredns/Dockerfile" />
+        <option value="$PROJECT_DIR$/flannel/Dockerfile" />
       </list>
     </option>
   </component>
@@ -131,19 +135,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/k8s-images.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="181" />
-    <option name="y" value="23" />
+    <option name="x" value="169" />
+    <option name="y" value="70" />
     <option name="width" value="1400" />
     <option name="height" value="919" />
   </component>
@@ -152,6 +146,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,57 +158,31 @@
             <path>
               <item name="k8s-images" type="b2602c69:ProjectViewProjectNode" />
               <item name="k8s-images" type="462c0819:PsiDirectoryNode" />
-              <item name="coredns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="k8s-images" type="b2602c69:ProjectViewProjectNode" />
-              <item name="k8s-images" type="462c0819:PsiDirectoryNode" />
               <item name="etcd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="k8s-images" type="b2602c69:ProjectViewProjectNode" />
               <item name="k8s-images" type="462c0819:PsiDirectoryNode" />
-              <item name="kube-apiserver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="k8s-images" type="b2602c69:ProjectViewProjectNode" />
-              <item name="k8s-images" type="462c0819:PsiDirectoryNode" />
-              <item name="kube-controller-manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="k8s-images" type="b2602c69:ProjectViewProjectNode" />
-              <item name="k8s-images" type="462c0819:PsiDirectoryNode" />
-              <item name="kube-proxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="k8s-images" type="b2602c69:ProjectViewProjectNode" />
-              <item name="k8s-images" type="462c0819:PsiDirectoryNode" />
-              <item name="kube-scheduler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="k8s-images" type="b2602c69:ProjectViewProjectNode" />
-              <item name="k8s-images" type="462c0819:PsiDirectoryNode" />
-              <item name="pause" type="462c0819:PsiDirectoryNode" />
+              <item name="flannel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/coredns-amd64" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/flannel" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\IdeaProjects\k8s-images\flannel" />
       <recent name="E:\workspace\IdeaProjects\k8s-images\coredns-amd64" />
       <recent name="E:\workspace\IdeaProjects\k8s-images" />
     </key>
@@ -239,7 +209,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577958112446</updated>
-      <workItem from="1577958113942" duration="2750000" />
+      <workItem from="1577958113942" duration="4016000" />
+      <workItem from="1578012295644" duration="1284000" />
+      <workItem from="1578035914350" duration="918000" />
+      <workItem from="1578051942799" duration="176000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1577958664035</created>
@@ -276,30 +249,38 @@
       <option name="project" value="LOCAL" />
       <updated>1577961856075</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="12">
+      <created>1577964482785</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1577964482785</updated>
+    </task>
+    <task id="LOCAL-00007" summary="12">
+      <created>1577965137708</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1577965137708</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2750000" />
+    <option name="totallyTimeSpent" value="6394000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="JRebel" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2596401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Problems" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -307,15 +288,23 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Problems" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="JRebel Console" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Executor" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,21 +316,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="12" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/etcd/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/kube-apiserver/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kube-controller-manager/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kube-proxy/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
@@ -358,21 +340,35 @@
     <entry file="file://$PROJECT_DIR$/pause/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kube-proxy/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etcd/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/coredns/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kube-apiserver/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/flannel/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>
