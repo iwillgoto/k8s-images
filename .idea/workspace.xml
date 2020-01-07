@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19d86f57-562c-4c45-9029-f6cbec5e1a2d" name="Default Changelist" comment="12">
+    <list default="true" id="19d86f57-562c-4c45-9029-f6cbec5e1a2d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flannel/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/flannel/Dockerfile" afterDir="false" />
     </list>
@@ -85,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flannel/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+            <state>
+              <caret column="41" lean-forward="true" selection-start-column="41" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -214,7 +214,8 @@
       <workItem from="1578035914350" duration="918000" />
       <workItem from="1578051942799" duration="1685000" />
       <workItem from="1578269812593" duration="1215000" />
-      <workItem from="1578311656491" duration="13000" />
+      <workItem from="1578311656491" duration="1376000" />
+      <workItem from="1578357599975" duration="378000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1577958664035</created>
@@ -279,17 +280,24 @@
       <option name="project" value="LOCAL" />
       <updated>1578052324643</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="12">
+      <created>1578311678778</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1578311678778</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9131000" />
+    <option name="totallyTimeSpent" value="10872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26606685" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2692802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -383,8 +391,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flannel/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        <state>
+          <caret column="41" lean-forward="true" selection-start-column="41" selection-end-column="41" />
         </state>
       </provider>
     </entry>
